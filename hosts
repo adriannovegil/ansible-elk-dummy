@@ -1,0 +1,12 @@
+[elastic]
+10.0.3.10 ansible_connection=ssh	ansible_user=vagrant
+
+[logstash]
+10.0.3.30 ansible_connection=ssh	ansible_user=vagrant
+
+[kibana]
+10.0.3.20 ansible_connection=ssh	ansible_user=vagrant
+
+[base]
+10.0.3.40 ansible_connection=ssh	ansible_user=vagrant
+10.0.3.41 ansible_connection=ssh	ansible_user=vagrant

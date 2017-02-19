@@ -1,0 +1,5 @@
+# Ignore the vagrant folder.
+roles/
+
+# Ignore the virtual machine log file.
+*.log

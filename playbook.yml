@@ -1,0 +1,14 @@
+---
+- hosts: base
+  user: vagrant
+  sudo: yes
+
+  roles:
+    - ansible-role-java
+
+- hosts: elastic
+  user: vagrant
+  sudo: yes
+
+  roles:
+    - ansible-role-java
